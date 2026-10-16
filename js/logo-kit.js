@@ -14,7 +14,7 @@ A:c=>`<path d="M26 10h14a31 31 0 0 1 0 62h-5v18h-9z" fill="${c}"/><circle cx="57
 B:c=>`<path d="M76.05 28.15A34 34 0 1 0 82.84 58.8" fill="none" stroke="${c}" stroke-width="11"/><circle cx="61" cy="53" r="9.5" fill="${c}"/>`,
 C:c=>`<circle cx="50" cy="26" r="18" fill="${c}"/><path d="M28 51h44l-13 11v24l-9 9-9-9V62z" fill="${c}"/>`,
 D:c=>`<path fill-rule="evenodd" d="M18 94V44a32 32 0 0 1 64 0v50zM31 94V44a19 19 0 0 1 38 0v50z" fill="${c}"/><circle cx="50" cy="79" r="10" fill="${c}"/>`,
-E:c=>`<g fill="${c}"><circle cx="50" cy="25" r="11"/><path d="${tee(38,40)}"/><g transform="translate(18 94) scale(.78) translate(-18 -94)"><circle cx="18" cy="45" r="9"/><path d="${tee(6,58)}"/></g><g transform="translate(82 94) scale(.78) translate(-82 -94)"><circle cx="82" cy="45" r="9"/><path d="${tee(70,58)}"/></g></g>`,
+E:c=>`<g fill="${c}"><circle cx="50" cy="25" r="11"/><path d="${tee(38,40)}"/><g transform="translate(18 94) scale(.931) translate(-18 -94)"><circle cx="18" cy="45" r="9"/><path d="${tee(6,58)}"/></g><g transform="translate(82 94) scale(.931) translate(-82 -94)"><circle cx="82" cy="45" r="9"/><path d="${tee(70,58)}"/></g></g>`,
 E1:c=>`<g fill="${c}"><circle cx="50" cy="25" r="11"/><path d="${tee(38,40)}"/></g>`,
 E3:c=>`<g fill="${c}"><circle cx="18" cy="45" r="9"/><circle cx="50" cy="45" r="9"/><circle cx="82" cy="45" r="9"/><path d="${tee(6,58)}${tee(38,58)}${tee(70,58)}"/></g>`,
 F:c=>`<g transform="translate(-.75 0)">${D_FLAG(c)}${G_CUP(c)}</g>`,
@@ -29,7 +29,7 @@ const mc=document.createElement('canvas').getContext('2d');
 function meas(r,fs){const size=fs*r.s,lsp=r.ls*size,font=`${r.w} ${size}px ${FAM[r.f]}`;mc.font=font;mc.letterSpacing=lsp+'px';const m=mc.measureText(r.t);return {t:r.t,w:r.w,fam:FAM[r.f],size,lsp,c:r.c,sp:r.sp,width:m.width,asc:m.actualBoundingBoxAscent,desc:m.actualBoundingBoxDescent}}
 const symAt=(k,c,x,y,z,rot)=>`<svg x="${f(x)}" y="${f(y)}" width="${f(z)}" height="${f(z)}" viewBox="0 0 100 100" overflow="visible">${rot?`<g transform="rotate(${rot} 50 50)">`:''}${SHAPE[k](c)}${rot?'</g>':''}</svg>`;
 /* visual bounds of each symbol inside its 100×100 box */
-const BOX={A:[26,10,71,90],B:[11,11,89,89],C:[28,8,72,95],D:[18,12,82,94],E:[8.6,14,91.4,94],E1:[38,14,62,94],E3:[6,36,94,94],F:[3.25,14,96.75,86.5],FD:[29.25,14,70.75,86],FG:[26.75,41.5,71.75,86.5]};
+const BOX={A:[26,10,71,90],B:[11,11,89,89],C:[28,8,72,95],D:[18,12,82,94],E:[6.8,14,93.2,94],E1:[38,14,62,94],E3:[6,36,94,94],F:[3.25,14,96.75,86.5],FD:[29.25,14,70.75,86],FG:[26.75,41.5,71.75,86.5]};
 const bx=k=>BOX[k]||[0,0,100,100];
 /* place symbol by its visual box: returns {svg,vw,vh} for a given visual height */
 function symV(k,c,left,top,vh){const b=bx(k),z=vh/((b[3]-b[1])/100),vw=z*(b[2]-b[0])/100;return {svg:symAt(k,c,left-z*b[0]/100,top-z*b[1]/100,z),vw,vh}}
