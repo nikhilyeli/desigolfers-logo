@@ -22,6 +22,7 @@ out+=sec('colour','Five colourways','Black, white, fairway, bunker and soil. Sym
 <div class="g5">${K.VARS.map(v=>tileB(K.lock({k,lines:[[EN()]],fs:22,fg:v.fg,bg:v.bg,pad:14}),'lockup-'+v.id,v.bg)).join('')}</div>
 <div class="g5">${K.VARS.map(v=>tileB(K.lock({k,z:4,fs:20,fg:v.fg,bg:v.bg}),'symbol-'+v.id,v.bg)).join('')}</div>`);
 if(window.renderColourBoard)out+=renderColourBoard(k);
+if(window.renderTypeBoard)out+=renderTypeBoard();
 const PM=[['grid','Grid','Upright repeat'],['turn','Turn','Each tile rotated 90°'],['tilt','Tilt','Whole field at −35°'],['turntilt','Turn + tilt','Tiles rotated 90°, field at −35°']];
 out+=sec('pattern','Pattern system','The symbol repeats, rotates and tiles. The motif uses a tint one step off the background so type on top stays readable.',
 `<div class="g2">${PM.map(([m,l,d],i)=>{const v=K.VARS[[2,3,4,1][i]],B=K.compose({W:1200,H:800,bg:v.bg,pattern:{k,fg:v.tint,mode:m,cell:110,scale:.8,opacity:.7}});return `<div class="cell"><div class="tile mk" style="padding:0;--h:0">${K.svg(B,{fluid:1})}${K.btns(B,cfg.slug+'-pattern-'+m+'-'+v.id,{t:false})}</div><span class="cap">${l} · ${d}</span></div>`}).join('')}</div>`);

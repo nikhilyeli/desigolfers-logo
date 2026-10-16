@@ -1,40 +1,10 @@
-/* telugu */
-@font-face{font-family: 'Anek Telugu'; font-style: normal; font-weight: 400; font-stretch: 100%; font-display: swap; src: url(../fonts/AnekTelugu-400-telugu.woff2) format('woff2'); unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;}
-/* latin */
-@font-face{font-family: 'Anek Telugu'; font-style: normal; font-weight: 400; font-stretch: 100%; font-display: swap; src: url(../fonts/AnekTelugu-400-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-/* telugu */
-@font-face{font-family: 'Anek Telugu'; font-style: normal; font-weight: 600; font-stretch: 100%; font-display: swap; src: url(../fonts/AnekTelugu-600-telugu.woff2) format('woff2'); unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;}
-/* latin */
-@font-face{font-family: 'Anek Telugu'; font-style: normal; font-weight: 600; font-stretch: 100%; font-display: swap; src: url(../fonts/AnekTelugu-600-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-/* telugu */
-@font-face{font-family: 'Anek Telugu'; font-style: normal; font-weight: 700; font-stretch: 100%; font-display: swap; src: url(../fonts/AnekTelugu-700-telugu.woff2) format('woff2'); unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;}
-/* latin */
-@font-face{font-family: 'Anek Telugu'; font-style: normal; font-weight: 700; font-stretch: 100%; font-display: swap; src: url(../fonts/AnekTelugu-700-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-/* telugu */
-@font-face{font-family: 'Anek Telugu'; font-style: normal; font-weight: 800; font-stretch: 100%; font-display: swap; src: url(../fonts/AnekTelugu-800-telugu.woff2) format('woff2'); unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;}
-/* latin */
-@font-face{font-family: 'Anek Telugu'; font-style: normal; font-weight: 800; font-stretch: 100%; font-display: swap; src: url(../fonts/AnekTelugu-800-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-/* latin */
-@font-face{font-family: 'Hanken Grotesk'; font-style: normal; font-weight: 400; font-display: swap; src: url(../fonts/HankenGrotesk-400-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-/* latin */
-@font-face{font-family: 'Hanken Grotesk'; font-style: normal; font-weight: 500; font-display: swap; src: url(../fonts/HankenGrotesk-500-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-/* latin */
-@font-face{font-family: 'Hanken Grotesk'; font-style: normal; font-weight: 600; font-display: swap; src: url(../fonts/HankenGrotesk-600-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-/* latin */
-@font-face{font-family: 'Hanken Grotesk'; font-style: normal; font-weight: 700; font-display: swap; src: url(../fonts/HankenGrotesk-700-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-/* latin */
-@font-face{font-family: 'Hanken Grotesk'; font-style: normal; font-weight: 800; font-display: swap; src: url(../fonts/HankenGrotesk-800-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-/* latin */
-@font-face{font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 500; font-display: swap; src: url(../fonts/IBMPlexMono-500-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-/* latin */
-@font-face{font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 600; font-display: swap; src: url(../fonts/IBMPlexMono-600-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-/* telugu */
-@font-face{font-family: 'Noto Serif Telugu'; font-style: normal; font-weight: 700; font-display: swap; src: url(../fonts/NotoSerifTelugu-700-telugu.woff2) format('woff2'); unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;}
-/* latin */
-@font-face{font-family: 'Noto Serif Telugu'; font-style: normal; font-weight: 700; font-display: swap; src: url(../fonts/NotoSerifTelugu-700-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-/* telugu */
-@font-face{font-family: 'Noto Serif Telugu'; font-style: normal; font-weight: 800; font-display: swap; src: url(../fonts/NotoSerifTelugu-800-telugu.woff2) format('woff2'); unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;}
-/* latin */
-@font-face{font-family: 'Noto Serif Telugu'; font-style: normal; font-weight: 800; font-display: swap; src: url(../fonts/NotoSerifTelugu-800-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-/* latin */
-@font-face{font-family: 'Young Serif'; font-style: normal; font-weight: 400; font-display: swap; src: url(../fonts/YoungSerif-400-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+/* Self-hosted brand fonts (SIL Open Font License). Anek Telugu and Hanken Grotesk are variable fonts: one file covers every weight. */
+/* Anek Telugu: Telugu wordmark */
+@font-face{font-family:'Anek Telugu';font-style:normal;font-weight:400 800;font-display:swap;src:url(../fonts/AnekTelugu-telugu.woff2) format('woff2');unicode-range:U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;}
+@font-face{font-family:'Anek Telugu';font-style:normal;font-weight:400 800;font-display:swap;src:url(../fonts/AnekTelugu-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+/* Hanken Grotesk: English wordmark, UI and body */
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:400 800;font-display:swap;src:url(../fonts/HankenGrotesk-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+/* Young Serif: headings */
+@font-face{font-family:'Young Serif';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/YoungSerif-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+/* IBM Plex Mono: colour codes and captions */
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/IBMPlexMono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}

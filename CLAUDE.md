@@ -13,7 +13,7 @@ This folder is a **finished static site**. Publish it as-is; don't rebuild it in
 - `three-tees.html`: full logo kit, rendered client-side by `js/brand-page.js` + `js/logo-kit.js`
 - `css/site.css`: brand tokens and page styles. `css/fonts.css` + `fonts/`: self-hosted woff2 (Young Serif, Hanken Grotesk, Anek Telugu, Noto Serif Telugu; all OFL)
 - `assets/logos/three-tees/{symbol,lockup,vertical,stacked,social,pattern}/`: pre-rendered SVG + PNG, each folder with an `index.html` browser
-- `assets/desi-golfers-three-tees-logos.zip`: all 223 logo files
+- `assets/desi-golfers-three-tees-logos.zip`: all 195 logo files
 
 ## Brand facts (don't change)
 - Name: DesiGolfers, a Telugu golf recreation channel (not a club). Telugu: దేశీ గోల్ఫర్స్

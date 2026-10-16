@@ -3,7 +3,7 @@
 const FONTS_URL='https://fonts.googleapis.com/css2?family=Young+Serif&family=Hanken+Grotesk:wght@400;600;700;800&family=Anek+Telugu:wght@600;700;800&family=Noto+Serif+Telugu:wght@600;700;800&display=swap';
 const linkP=new Promise(res=>{let l=document.querySelector('link[data-kit-fonts]');if(!l){l=document.createElement('link');l.rel='stylesheet';l.href=FONTS_URL;l.dataset.kitFonts='1';document.head.appendChild(l)}l.addEventListener('load',res);l.addEventListener('error',res);if(l.sheet)res();setTimeout(res,4000)});
 const FAM={display:"'Young Serif', Georgia, serif",sans:"'Hanken Grotesk', Helvetica, sans-serif",'telugu-display':"'Noto Serif Telugu', serif",telugu:"'Anek Telugu', sans-serif"};
-const LOADS=[['Young Serif',400],['Hanken Grotesk',700],['Hanken Grotesk',800],['Anek Telugu',700],['Anek Telugu',800],['Noto Serif Telugu',700],['Noto Serif Telugu',800]];
+const LOADS=[['Young Serif',400],['Hanken Grotesk',700],['Hanken Grotesk',800],['Anek Telugu',700],['Anek Telugu',800]];
 const ready=async()=>{await linkP;await Promise.all(LOADS.map(([f,w])=>document.fonts.load(`${w} 40px "${f}"`,f.includes('Telugu')?'దేశీ గోల్ఫర్స్':'DESI golfers').catch(()=>{})));await document.fonts.ready};
 const TE='దేశీ గోల్ఫర్స్';
 const tee=(x,t)=>`M${x} ${t}h24l-8 9V88l-4 6-4-6V${t+9}z`;

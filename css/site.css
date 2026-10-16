@@ -34,7 +34,7 @@
 :root{
 --font-display:'Young Serif',Georgia,'Times New Roman',serif;
 --font-sans:'Hanken Grotesk','Helvetica Neue',Helvetica,sans-serif;
---font-telugu-display:'Noto Serif Telugu','Young Serif',serif;
+--font-telugu-display:'Anek Telugu','Hanken Grotesk',sans-serif;
 --font-telugu:'Anek Telugu','Hanken Grotesk',sans-serif;
 --font-mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
 --fs-display-xl:72px;--fs-display-l:56px;--fs-h1:40px;--fs-h2:32px;--fs-h3:24px;--fs-h4:20px;
@@ -181,3 +181,10 @@ svg{max-width:100%}
 .sws{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,130px),1fr));gap:12px}
 .sw{display:flex;flex-direction:column;gap:2px;font-size:13px}.sw i{display:block;height:64px;border-radius:8px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08);margin-bottom:6px}.sw b{color:var(--ink);font-weight:600}.sw code{font:500 11.5px/1.4 var(--font-mono);color:var(--text-2)}
 @media print{*{-webkit-print-color-adjust:exact;print-color-adjust:exact}.cws{grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}.cw-sw{height:90px}.cw-d{padding:10px;gap:6px}.cr code{font-size:10px}.cw-d p{font-size:11px}.rules{grid-template-columns:1fr 1fr;gap:8px}.rule{padding:10px 12px 10px 44px;font-size:12px}.rule::before{left:12px;top:10px}.sws{grid-template-columns:repeat(5,minmax(0,1fr))}.sw i{height:40px}.pal{gap:12px}.lbl.sub{break-after:avoid;margin-top:18px}.pg{break-inside:avoid}}
+
+/* fonts */
+.fts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px}
+.ftc{display:flex;flex-direction:column;border-radius:8px;overflow:hidden;background:var(--stone-50)}
+.ft-s{display:flex;align-items:center;min-height:110px;padding:20px;background:var(--chalk);color:var(--pine-900);font-size:28px;line-height:1.2;overflow-wrap:anywhere}
+.ft-d{display:flex;flex-direction:column;gap:4px;padding:14px;font-size:13px;color:var(--text-2)}.ft-d b{color:var(--ink);font-size:15px}.ft-d code{font:500 12px/1.4 var(--font-mono)}.ft-d a{margin-top:4px;font-size:13px}
+@media print{#fonts{break-before:auto!important;page-break-before:auto!important;margin-top:24px}.fts{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.ft-s{min-height:80px;font-size:20px;padding:14px}.ft-d{padding:10px}.ft-d a{display:none}.ftc{break-inside:avoid}}
